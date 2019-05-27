@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.servlet.Login</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.servlet.Logout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateEmp</servlet-name>
+        <servlet-class>com.servlet.CreateEmp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateEmp</servlet-name>
+        <url-pattern>/CreateEmp</url-pattern>
+</servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateNum</servlet-name>
+        <servlet-class>com.servlet.CreateNum</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateNum</servlet-name>
+        <url-pattern>/CreateNum</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateAbn</servlet-name>
+        <servlet-class>com.servlet.CreateAbn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateAbn</servlet-name>
+        <url-pattern>/CreateAbn</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CreateSer</servlet-name>
+        <servlet-class>com.servlet.CreateSer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateSer</servlet-name>
+        <url-pattern>/CreateSer</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Contrats</servlet-name>
+        <servlet-class>com.servlet.Contrats</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Contrats</servlet-name>
+        <url-pattern>/Contrats</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Fact</servlet-name>
+        <servlet-class>com.servlet.Fact</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Fact</servlet-name>
+        <url-pattern>/Fact</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Notification</servlet-name>
+        <servlet-class>com.servlet.Notification</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Notification</servlet-name>
+        <url-pattern>/Notification</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
